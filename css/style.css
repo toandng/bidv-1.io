@@ -7,9 +7,7 @@
 a{
     text-decoration: none;
 }
-ul{
-    list-style: none;
-}
+
 .header-1{
     background-color: #00471b;
     padding: 3px 10px 3px 10px;
@@ -79,7 +77,7 @@ font-weight: 700;
 }
 .frame-left-item-1{
     text-align: center;
-    padding: 0px 0px 0px 60px;
+    padding: 0px 0px 0px 120px;
 }
 .frame-left-item{
     background-color: #006c6c;
@@ -124,7 +122,7 @@ font-weight: 700;
 }
 .frame-center-item-1{
     text-align: center;
-    padding: 0px 0px 0px 85px;
+    padding: 0px 0px 0px 40px;
 }
 .frame-center-item img{
     position: relative;
@@ -135,18 +133,22 @@ font-weight: 700;
 .frame-center h1{
     color: #006c6c;
     font-weight: 600;
+    padding: 0px 80px 0px 0px;
 }
 
 .frame-center p{
     color: #006c6c;
     font-size: 23px;
     font-weight: 600;
+    padding: 0px 80px 0px 0px;
 }
 .frame-center span{
     line-height: 25px;
-    align-items: center;
+    align-items: center;    
     font-weight: 400;
     display: block;
+    position: relative;
+    right: 25px;
 }
 /*end frame-center*/
 .frame-right{
@@ -241,6 +243,7 @@ font-weight: 700;
 .frame-2-top h1{
     margin-top: 20px;
         font-weight: 600;
+        font-size: 20px;
 }
 
 .frame-2-down iframe{
@@ -436,6 +439,9 @@ font-weight: 700;
 .group-menu-6{
     background-color: #f5f5f5;
 }
+.frame-4-top h1{
+    font-weight: 600;
+}
 .frame-4-top{
     text-align: center;
     color: #006c6c;
@@ -481,17 +487,16 @@ font-weight: 700;
     left: 30px;
 }
 .frame-4-center-left ul li{
-    padding: 10px 5px;
-    position: relative;
-    right: 30px;
+    padding: 10px 15px 10px 17px;
+    font-size: 13px;
+   
 }
 .frame-4-center-left img{
     padding: 0px 10px 5px 2px;
 }
 .frame-4-center-center ul li{
     padding: 10px 5px;
-    position: relative;
-    right: 18px;
+    font-size: 13px;
 }
 .frame-4-center-center img{
     padding: 0px 10px 5px 2px;
@@ -512,6 +517,17 @@ font-weight: 700;
     padding: 10px 5px;
     position: relative;
     right: 18px;
+    font-size: 13px;
+}
+.frame-4-ul{
+    padding: 10px 0px;
+}
+.frame-4-ul-1{
+    padding: 10px 0px;
+}
+.frame-4-ul-2{
+    font-size: 13px;
+    padding: 10px 0px;
 }
 .frame-4-center-right img{
     padding: 0px 10px 5px 2px;
@@ -622,14 +638,12 @@ font-weight: 700;
     font-size: 20px;
     border-radius: 50px;
     margin: 0px 10px;
-    position: relative;
-    top: 20px;
+   
 }
 .frame-5-center-1 span{
     margin: 10px 10px ;
     padding: 10px 10px;
-    position: relative;
-    top: 20px;
+    
 
 }
 .frame-5-right img{
@@ -660,7 +674,9 @@ font-weight: 700;
     position: relative;
     bottom:500px;
 }
-
+.frame-6-top h1{
+    font-weight: 600;
+}
 .frame-6-top{
     color: #006c6c;
     text-align: center;
@@ -1048,7 +1064,7 @@ font-weight: 700;
     left: 20px;
     font-size: 20px;
 }
-.frame-10-left ul,li{
+.frame-10-left-ul{
     position: relative;
     top: 30px;
     margin: 3px 3px;
