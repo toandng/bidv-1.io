@@ -45,9 +45,6 @@
         display: none;
     }
     /*menu-13*/
-    .group-menu-13{
-        display: none;
-    }
     /*menu-16*/
     .group-menu-16{
         display: none;
@@ -179,10 +176,10 @@
 .frame-4-center-img img{
     display: none;
 }
-
-.frame-4-center{
+.frame-4{
     display: block;
 }
+
 .tap-menu-3{
     text-align: center;
 }
