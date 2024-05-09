@@ -555,7 +555,7 @@
 .group-menu-12{
     margin: 0px;
     padding: 0px;
-    display: none;
+   
 }
 .frame-11{
     display: block;
@@ -580,6 +580,8 @@
 }
 .frame-10-left{
     display: block;
+    position: relative;
+    left: 0px;
 }
 .frame-10-left i{
     position: relative;
