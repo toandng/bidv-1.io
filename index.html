@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BIDV</title>
-    <link rel="stylesheet" href="/css/style.css">
+       <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/tap.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <script src="https://kit.fontawesome.com/f464ed5cf0.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <title>BIDV</title>
+ 
  
 </head>
 <body>
@@ -34,7 +37,10 @@
                 <div class="container">
                         <div class="header-left">
                             <img src="/img/UB-Academy-xanh 1.png" alt="">
-                            <nav>
+                            <div class="toogle">
+                                <i class="fa-solid fa-bars"></i>
+                            </div>
+                            <nav class="main-menu-1">
                                 <ul class="main-menu">
                                     <li><a href="">Điều kiện ứng tuyển</a> </li>
                                     <li>
@@ -60,6 +66,13 @@
                 </div>
             </div>
     </header>
+   <script>
+        $(document).ready(function(){
+            $('.toogle').click(function(){
+                $('.main-menu-1').slideToggle();
+            });
+        })
+   </script>
      <nav>
         <div class="frame-img">
 
@@ -736,5 +749,6 @@
    </div> 
    
 </footer>
+
 </body>
 </html>

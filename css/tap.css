@@ -1,0 +1,44 @@
+.toogle{
+    background-color:#006c6c;
+    color: #fff;
+    text-align: left;
+    padding: 10px;
+    cursor: pointer;
+    display: none;
+    font-size: 20px;
+}
+@media screen and (max-width:768px) {
+    
+.main-menu{
+    display: flex;
+
+}
+.toogle{
+    display: block;
+}
+.main-menu-1{
+    display: none;
+    display: block;
+    background-color: #fff;
+    padding: 0px 20px 0px;
+}
+.header-left{
+    background-color: #006c6c;
+}
+.main-menu{
+        flex-direction: column;
+    }
+    nav .main-menu li a{
+    color: #006c6c;    
+    text-decoration: none;
+    display: block;
+    background-color: #fff;
+    }
+.header-1{
+    display: none;
+}
+.header{
+    background-color: #006c6c;
+    
+}
+}
