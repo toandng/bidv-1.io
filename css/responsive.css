@@ -5,6 +5,9 @@
     .iframe-3-1{
         display: none;
     }
+    .main-menu{
+        list-style: none;
+    }
     /*menu-6*/
     .tap-menu-3 img{
         display: none;
