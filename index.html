@@ -36,12 +36,12 @@
             <div class="header-2">
                 <div class="container">
                         <div class="header-left">
-                            <img src="/img/UB-Academy-xanh 1.png" alt="">
-                            <div class="toogle">
-                                <i class="fa-solid fa-bars"></i>
+                            <div class="header-left-img">
+                               <img src="/img/UB-Academy-xanh 1.png" alt=""> 
                             </div>
-                            <nav class="main-menu-1">
-                                <ul class="main-menu">
+                            
+                            <div class="main-menu-2">
+                                <ul class="main-menu-2-top">
                                     <li><a href="">Điều kiện ứng tuyển</a> </li>
                                     <li>
                                         <a href="">Đối tượng học</a>
@@ -59,16 +59,70 @@
                                         <a href="">Học viên nói gì sau khóa học?</a></a>
                                     </li>
                                 </ul>
-                            </nav>
-                         
+
+                            </div>
+                            <div class="main-menu-bar">
+                                <div class="main-menu-bar-1-left">
+                                    <p>9:41</p>
+                                </div>
+                                <div class="main-menu-bar-1-center">
+                                    <img src="/img/Notch.png" alt="">
+                                </div>
+                                <div class="main-menu-bar-1-right">
+                                    <i class="fa-solid fa-signal"></i>
+                                    <i class="fa-solid fa-wifi"></i>
+                                    <i class="fa-solid fa-battery-full"></i>
+
+                                </div>
+                                <div class="toogle">
+                                    <i class="fa-solid fa-bars"></i>
+                                </div>
+                                <div class="search">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </div>
+                                <div class="img">
+                                    <img src="/img/Frame (2).png" alt="">
+                                </div>
+                                <nav class="main-menu-1">
+                                    <div class="close">
+                                        <p>X</p>
+                                    </div>
+                                    <ul class="main-menu">
+                                        <li><a href="">Điều kiện ứng tuyển</a> </li>
+                                        <li>
+                                            <a href="">Đối tượng học</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Nội dung đào tạo</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Tại sao nên học tại UB Academy</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Giảng viên</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Học viên nói gì sau khóa học?</a></a>
+                                        </li>
+                                        <li>
+                                            <a href=""><i class="fa-solid fa-phone-volume"></i>Hỗ trợ tư vấn: 097.5151.777</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
                         </div>
-                    
                 </div>
             </div>
     </header>
    <script>
         $(document).ready(function(){
             $('.toogle').click(function(){
+                $('.main-menu-1').slideToggle();
+            });
+           
+        })
+        $(document).ready(function(){
+            $('.close').click(function(){
                 $('.main-menu-1').slideToggle();
             });
         })
