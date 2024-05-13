@@ -641,7 +641,7 @@ list-style: none;
     font-weight: 600;
 }
 .item-13{
-    margin: 60px 20px;
+    margin: 20px 20px;
 }
 .item-14 img{
     padding: 0px 0px;
@@ -720,11 +720,8 @@ list-style: none;
 /*menu-13*/
 .group-menu-13{
     display: none;
-    
 }
-.item-13 img{
-    width: 100%;
-}
+
 /*menu-14*/
 .group-menu-14{
     position: relative;
