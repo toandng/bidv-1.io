@@ -68,6 +68,9 @@
     .frame-14-top-1{
         display: none;
     }
+    .form-submit-1{
+        display: none;
+    }
 
 }
 @media(max-width:768px){
@@ -382,6 +385,9 @@ list-style: none;
 .item-1{
     gap: 20px;
 }
+.item-1-span{
+    padding: 0px 20px 20px 15px;
+}
 .item-1 img{
     height: 50px;
     width: 50px;
@@ -400,6 +406,9 @@ list-style: none;
     padding: 10px 10px;
     margin-top: 20px;
 }
+.item-2-span{
+    padding: 0px 20px 20px 15px;
+}
 .item-2 img{
     height: 50px;
     width: 50px;
@@ -416,6 +425,9 @@ list-style: none;
 .item-3{
     margin-top: 20px;
 }
+.item-3-span{
+    padding: 0px 20px 20px 15px;
+}
 .item-3 img{
     height: 40px;
     width: 40px;
@@ -428,6 +440,9 @@ list-style: none;
     left: 30px;
     font-size: 14px;
     font-weight: 600;
+}
+.item-4-span{
+    padding: 0px 20px 20px 15px;
 }
 .item-4{
     margin-top: 20px;
@@ -448,6 +463,9 @@ list-style: none;
 .item-5{
     margin-top: 20px;
 }
+.item-5-span{
+    padding: 0px 20px 20px 15px;
+}
 .item-5 img{
     height: 40px;
     width: 40px;
@@ -460,6 +478,9 @@ list-style: none;
     left: 35px;
     font-size: 16px;
     font-weight: 600;
+}
+.item-6-span{
+    padding: 0px 20px 20px 15px;
 }
 .item-6{
     margin-top: 20px;
@@ -491,6 +512,8 @@ list-style: none;
 /*menu-9*/
 .group-menu-9{
     margin: 30px 0px;
+    position: relative;
+    bottom: 0px;
 }
 .frame-7-down{
     display: block;
@@ -552,6 +575,10 @@ list-style: none;
     padding: 0px 90px 0px;
 }
 /*menu-10*/
+.group-menu-10{
+    position: relative;
+    bottom: 0px;
+}
 .frame-8-top{
     display: none;
 }
@@ -604,7 +631,11 @@ list-style: none;
     top: 30px;
     right: 30px;
 }
-/*menu-10*/
+/*menu-11*/
+.group-menu-11{
+    position: relative;
+    bottom: 0px;
+}
 .frame-9-down{
     display: none;
 }
@@ -633,6 +664,8 @@ list-style: none;
 .group-menu-12{
     margin: 0px;
     padding: 0px;
+    position: relative;
+    bottom: 0px;
    
 }
 .frame-11{
@@ -667,17 +700,43 @@ list-style: none;
     left: -10px;
     font-size: 10px;
 }
+#form-login{
+    padding: 0px 7px 40px 3px;
+
+}
+.form-submit{
+    display: none;
+}
+.form-submit-1{
+    background-color: #006c6c;
+    color: #fff;
+    border: 1px solid #f5f5f5;
+    text-transform: uppercase;
+    text-align: center;
+    height: 44px;
+    width: 176px;
+    bottom: 25px;
+    position: relative;
+    left: 25%;
+    top:5px;
+    border-radius: 5px;
+}
 .form-input{
     width: 335px;
 }
 /*menu-13*/
 .group-menu-13{
     display: none;
+    
 }
 .item-13 img{
     width: 100%;
 }
 /*menu-14*/
+.group-menu-14{
+    position: relative;
+    bottom: 0px;
+}
 .frame-13-top img{
     width: 100%;
 }
@@ -690,7 +749,10 @@ list-style: none;
     padding: 10px 10px;
 }
 /*menu-15*/
-
+.group-menu-15{
+    position: relative;
+    bottom: 0px;
+}
 .frame-14{
     display: block;
 }

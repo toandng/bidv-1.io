@@ -159,9 +159,8 @@ font-weight: 700;
     height: 138px;
 }
 .frame-right-item img{
-    position: relative;
-    top: 20px;
-    left: 10px;
+   padding: 26px 0px 0px 0px;
+   width: 91px;
 }
 .frame-right-item-1{
     text-align: center;
@@ -619,6 +618,10 @@ font-weight: 700;
     font-size: 16px;
     display: block;
 }
+.frame-5-center-1-top{
+    display: block;
+    padding: 20px 0px;
+}
 .frame-5-center-1 ul li{
     padding: 0px 5px 5px 0px ;
     font-size: 14px;
@@ -626,6 +629,18 @@ font-weight: 700;
 .frame-5-center-2 {
     padding: 20px 40px 20px 0px;
     display: block;
+}
+.frame-5-center-2-top{
+    display: block;
+    padding: 20px 0px;
+}
+.frame-5-center-2-center{
+    display: block;
+    padding: 20px 0px;
+}
+.frame-5-center-2-down{
+    display: block;
+    padding: 20px 0px;
 }
 .frame-5-center-2 span{
     padding: 10px 10px;
@@ -647,7 +662,7 @@ font-weight: 700;
 .frame-5-right img{
     position: relative;
     left: 510px;
-    bottom: 325px;
+    bottom: 400px;
 }
 .frame-5-menu{
     box-shadow: 2px 2px 2px 2px  #dddd;
@@ -693,7 +708,9 @@ font-weight: 700;
     background-color: #006c6c;
     text-align: center;
 }
-
+.item-1-span{
+    padding: 5px 18px 0px 20px;
+}
 .item-1 img{
     background-color: #006c6c;
     width: 80px;
@@ -717,9 +734,8 @@ font-weight: 700;
     background-color: #006c6c;
     text-align: center;
 }
-.item-2 span{
-    padding: 10px 10px 10px 10px;
-    margin: 10px 10px;
+.item-2-span{
+    padding: 5px 18px 0px 20px;
     font-size: 12px;
 }
 .item-2 img{
@@ -740,9 +756,9 @@ font-weight: 700;
     background-color: #006c6c;
     text-align: center;
 }
-.item-3 span{
-    padding: 10px 10px 10px 10px;
-    margin: 10px 10px;
+.item-3-span{
+    padding: 5px 18px 0px 20px;
+    
     font-size: 12px;
 }
 .item-3 img{
@@ -763,9 +779,8 @@ font-weight: 700;
     background-color: #006c6c;
     text-align: center;
 }
-.item-4 span{
-    padding: 10px 10px 10px 10px;
-    margin: 10px 10px;
+.item-4-span{
+    padding: 5px 18px 0px 20px;
     font-size: 12px;
 }
 .item-4 img{
@@ -785,9 +800,8 @@ font-weight: 700;
     background-color: #006c6c;
     text-align: center;
 }
-.item-5 span{
-    padding: 10px 10px 10px 10px;
-    margin: 10px 10px;
+.item-5-span{
+    padding: 5px 18px 0px 20px;
     font-size: 12px;
 }
 .item-5 img{
@@ -807,9 +821,8 @@ font-weight: 700;
     background-color: #006c6c;
     text-align: center;
 }
-.item-6 span{
-    padding: 10px 10px 10px 10px;
-    margin: 10px 10px;
+.item-6-span{
+    padding: 5px 18px 0px 20px;
     font-size: 12px;
 }
 .item-6 img{
@@ -1016,7 +1029,7 @@ font-weight: 700;
 }
 #form-login{
     text-align:start;
-    position: relative;
+    padding: 0px 18px;
     
 }
 #form-login h2{
@@ -1117,8 +1130,6 @@ font-weight: 700;
 
 /*menu-14.*/
 .group-menu-15{
-    position: relative;
-    bottom: 400px;
     background-color: #006c6c;
 }
 .frame-14{
