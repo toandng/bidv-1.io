@@ -302,7 +302,7 @@ list-style: none;
     color: #fff;
     display: block;
     font-size: 14px;
-    padding: 10px 0px;
+    padding: 10px 10px;
 }
 .frame-5-1-ul li{
     font-size: 18px;
@@ -330,7 +330,7 @@ list-style: none;
     font-size: 14px;
     font-weight: 600;
     margin: 20px 0px;
-    padding: 10px 0px;
+    padding: 10px 10px;
 }
 .frame-5-1-center ol{
   font-size: 14px;
@@ -350,7 +350,7 @@ list-style: none;
     font-weight: 600;
     margin: 20px 0px;
     display: block;
-    padding: 10px 0px;
+    padding: 10px 10px;
 
 }
 .frame-5-1-down ol{
@@ -699,10 +699,6 @@ list-style: none;
     top: 0px;
     left: -10px;
     font-size: 10px;
-}
-#form-login{
-    padding: 0px 7px 40px 3px;
-
 }
 .form-submit{
     display: none;
