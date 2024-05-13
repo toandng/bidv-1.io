@@ -11,6 +11,11 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <script src="https://kit.fontawesome.com/f464ed5cf0.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <!--slide-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.green.min.css" integrity="sha512-C8Movfk6DU/H5PzarG0+Dv9MA9IZzvmQpO/3cIlGIflmtY3vIud07myMu4M/NTPJl8jmZtt/4mC9bAioMZBBdA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <title>BIDV</title>
  
  
@@ -667,6 +672,8 @@
     </div>
 </section>
 <section>
+    <!--js slide-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <div class="group-menu-11">
         <div class="container">
             <div class="frame-9">
@@ -674,7 +681,7 @@
                     <h1>HỌC VIÊN NÓI GÌ VỀ KHOÁ HỌC LUYỆN THI <br>
                         NGÂN HÀNG TẠI UB ACADEMY?</h1>
                 </div>
-                <div class="frame-9-down">
+                <div class="owl-carousel owl-theme">
                     <div class="item-10">
                         <img src="/img/u74 1 (1).png" alt="">
                     </div>
@@ -684,24 +691,36 @@
                     <div class="item-12">
                         <img src="/img/u74 3 (1).png" alt="">
                     </div>
-                    
-                </div>
-                <div class="item-13">
+                    <div class="item-13">
                     <img src="/img/u74 1 (2).png" alt="">
+                    </div>
                 </div>
-                <div class="frame-9-down-1">
-                    <img src="/img/Frame 427318804 (1).png" alt="">
-                </div>
-                <div class="item-14">
-                    <img src="/img/Navigate next.png" alt="">
-                </div>
-                <div class="item-15">
-                    <img src="/img/Navigate next (1).png" alt="">
-                </div>
+                
+               
             </div>
         </div>
     </div>
 </section>
+<script> 
+    $(document).ready(function(){
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:2
+                },
+                1000:{
+                    items:3
+                }
+            }
+})
+});
+</script>
 <section>
     <div class="group-menu-12">
         <div class="container">
